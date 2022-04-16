@@ -5,7 +5,7 @@
       "date": "2021-05-13",
       "status": "Aktif",
       "noTable": "01",
-      "noOrder": "ABC13052021-01",
+      "noOrder": "01",
       "UserId": 1,
       "MenuId": 1 
   },
@@ -15,7 +15,7 @@
     "date": "2021-05-12",
     "status": "Aktif",
     "noTable": "02",
-    "noOrder": "ABC12052021-02",
+    "noOrder": "02",
     "UserId": 2,
     "MenuId": 2 
 },
@@ -25,7 +25,7 @@
   "date": "2021-05-11",
   "status": "Aktif",
   "noTable": "03",
-  "noOrder": "ABC11052021-03",
+  "noOrder": "03",
   "UserId": 1,
   "MenuId": 3 
 }
