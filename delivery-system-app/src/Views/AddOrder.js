@@ -47,7 +47,7 @@ function AddOrder() {
       if (err === 'Error: Bad Request') {
         errorAlert(err, 'Please input field data');
       } else {
-        errorAlert(err, 'PLeease fill the blank');
+        errorAlert(err, 'Forbidden');
       }
     });
   };

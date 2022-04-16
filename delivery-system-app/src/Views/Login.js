@@ -74,13 +74,13 @@ function Login() {
                 </div>
           </form>
           <div className="container-image">
-            <h3> MAKE AKUN FOR WAITER <button className="nav-button">
+            <p> MAKE AKUN FOR WAITER <button className="table-button1">
     <Link to="/registerwaiter" className="table-button-text" >Sign Up</Link>
-    </button></h3>
+    </button></p>
 
-    <h3> MAKE AKUN FOR CHASIER <button className="nav-button">
+    <p> MAKE AKUN FOR CHASIER <button className="table-button2">
     <Link to="/register" className="table-button-text" >Sign Up</Link>
-    </button></h3>
+    </button></p>
           </div>
         </div>
       </div>

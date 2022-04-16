@@ -43,7 +43,7 @@ export const loadingUser = (payload) => {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
-            access_token: localStorage.getcompany('access_token'),
+            access_token: localStorage.getItem('access_token'),
           },
           body: JSON.stringify(payload),
         })
@@ -83,7 +83,7 @@ export const loadingUser = (payload) => {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
-            access_token: localStorage.getcompany('access_token'),
+            access_token: localStorage.getItem('access_token'),
           },
           body: JSON.stringify(payload),
         })
