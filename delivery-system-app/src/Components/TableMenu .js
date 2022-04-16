@@ -9,7 +9,7 @@ function TableMenu ({menu}) {
 
 const deleteMenuHandler = (id) =>{
   console.log(id)
-    fetch(`http://localhost:10000/menu/${id}`, {
+    fetch(`https://delivery-system-server.herokuapp.com/menu/${id}`, {
         method: 'DELETE',  
         headers: {
           access_token: localStorage.getItem('access_token')

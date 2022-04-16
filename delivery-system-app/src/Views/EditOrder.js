@@ -44,7 +44,7 @@ function EditOrder() {
     },[])
 
     const EditNewOrder = () =>{
-        fetch(`http://localhost:10000/order/${id}`, {
+        fetch(`https://delivery-system-server.herokuapp.com/order/${id}`, {
             method: 'PUT', // or 'PUT'
          headers: {
            'Content-Type': 'application/json',

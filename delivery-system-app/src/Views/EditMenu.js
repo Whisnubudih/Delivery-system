@@ -33,7 +33,7 @@ function EditMenu() {
     },[])
 
     const EditNewMenu = () =>{
-        fetch(`http://localhost:10000/menu/${id}`, {
+        fetch(`https://delivery-system-server.herokuapp.com/menu/${id}`, {
             method: 'PUT', // or 'PUT'
          headers: {
            'Content-Type': 'application/json',

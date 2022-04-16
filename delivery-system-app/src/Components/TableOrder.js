@@ -30,7 +30,7 @@ const formatNoOrder =() => {
 
 const deleteOrderHandler = (id) =>{
   console.log(id)
-    fetch(`http://localhost:10000/order/${id}`, {
+    fetch(`https://delivery-system-server.herokuapp.com/order/${id}`, {
         method: 'DELETE',  
         headers: {
           access_token: localStorage.getItem('access_token')
